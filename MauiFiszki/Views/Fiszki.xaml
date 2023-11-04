@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiFiszki.Views.Fiszki"
+             Title="Fiszki">
+    <Grid RowDefinitions="*,*,*"
+          x:Name="gridLayout"
+          BackgroundColor="{StaticResource MyYellow}"
+          ColumnDefinitions="*,1000,*">
+
+        <StackLayout Grid.Row="1"
+                     x:Name="insertLayout"
+                     Spacing="10"
+                     VerticalOptions="Center"
+                     IsVisible="true"
+                     Grid.Column="1">
+
+            <Label Text="Przetłumacz z polskiego na język obcy : "
+                   TextColor="{StaticResource MyBlue}"
+                   FontSize="50"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+
+            <Label Text="{Binding fiszkaData.currentWord}"
+                   TextColor="{StaticResource MyBlue}"
+                   FontSize="50"
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center" />
+
+            <Editor HorizontalTextAlignment="Center"
+                    TextColor="{StaticResource MyBlue}"
+                    x:Name="InputTlumacznie"/>
+
+            <Button Clicked="ButtonCheck_Clicked"
+                    BackgroundColor="{StaticResource MyBlue}"
+                    TextColor="{StaticResource MyYellow}"
+                    Text="Sprawdź odpowiedź"/>
+
+        </StackLayout>
+
+        <StackLayout x:Name="resultLayout"
+                     Grid.Row="1"
+                     Spacing="10"
+                     VerticalOptions="Center"
+                     Grid.Column="1"
+                     IsVisible="false">
+
+            <Label x:Name="resultLabel"
+                   Text="Dobrze"
+                   FontSize="90"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   TextColor="White"/>
+
+            <Label x:Name="resultLabelBlad"
+                   FontSize="40"
+                   VerticalOptions="Center"
+                   HorizontalOptions="Center"
+                   TextColor="White"/>
+
+
+            <Button Clicked="ButtonShowAllSections_Clicked"
+                    x:Name="buttonShowAllSections"
+                    FontSize="30"
+                    TextColor="{StaticResource MyYellow}"
+                    BackgroundColor="{StaticResource MyBlue}"
+                    Text="Wróc do wszystkich działów"
+                    IsVisible="false"/>
+        
+        </StackLayout>
+    </Grid>
+</ContentPage>

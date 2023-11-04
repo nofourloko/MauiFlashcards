@@ -1,0 +1,57 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = MauiFiszki
+build_property.ProjectDir = /Users/jakub/Projects/MauiFiszki/MauiFiszki/
+
+[/Users/jakub/Projects/MauiFiszki/MauiFiszki/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiFiszki.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/jakub/Projects/MauiFiszki/MauiFiszki/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiFiszki.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/jakub/Projects/MauiFiszki/MauiFiszki/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiFiszki.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/jakub/Projects/MauiFiszki/MauiFiszki/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiFiszki.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/jakub/Projects/MauiFiszki/MauiFiszki/Views/Fiszki.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiFiszki.Views.Fiszki.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Fiszki.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Fiszki.xaml
+
+[/Users/jakub/Projects/MauiFiszki/MauiFiszki/Views/LanguageSelection.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiFiszki.Views.LanguageSelection.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/LanguageSelection.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/LanguageSelection.xaml
+
+[/Users/jakub/Projects/MauiFiszki/MauiFiszki/Views/SectionSelection.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = MauiFiszki.Views.SectionSelection.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/SectionSelection.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/SectionSelection.xaml
